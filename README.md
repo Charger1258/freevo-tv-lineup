@@ -17,14 +17,21 @@ private repo would need a token on every TV.)
 Edit the working copy in the Streaming Apps workspace, validate it, then push it here:
 
 ```powershell
-# 1. Edit
+# One-time setup: a clone to work from
+git clone https://github.com/Charger1258/freevo-tv-lineup
+# 1. Edit the working copy in the Streaming Apps workspace
 code "C:\Users\Roni\Documents\Streaming Apps\Android\stream-firetv-next\channels\lineup\lineup.json"
 # 2. Check it against the same rules the TV applies (exit code 1 means the TV would drop something)
 & "C:\Users\Roni\Documents\Streaming Apps\Android\stream-firetv-next\channels\lineup\Validate-Lineup.ps1"
-# 3. Publish
-cd C:\Users\Roni\Documents\Streaming Apps\Android\stream-firetv-next\channels\lineup
-git add lineup.json; git commit -m "Rotate the lineup"; git push
+# 3. Publish from the clone
+cd freevo-tv-lineup
+copy "C:\Users\Roni\Documents\Streaming Apps\Android\stream-firetv-next\channels\lineup\lineup.json" lineup.json
+git add lineup.json; git commit -m "Rotate the lineup"
+git -c credential.helper= -c credential.helper="!gh auth git-credential" push   # plain git push hangs on GCM
 ```
+
+A worked example of both controls — a five-title Comedy `wheel` plus *Knives Out* pinned at 5:00 PM ET — is
+commit `bdbb664`. It was reverted once proven, so `main` carries the plain revision 1 lineup again.
 
 Raise `revision` on every rotation. A pushed revision rebuilds planned hours from the next minute forward,
 and whatever is already on air keeps running until it ends. Undo a bad rotation with `git revert`.
