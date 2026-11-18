@@ -1,60 +1,7 @@
 {
-  "revision": 2,
+  "revision": 1,
   "timezone": "America/New_York",
-  "content": [
-    {
-      "id": "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/1",
-      "title": "The Office",
-      "episode": "S1 E1 - Pilot",
-      "series": "https://flixtor.to/watch/tv/130674/the-office",
-      "poster": "https://img.xcdn.to/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
-      "duration": 1500000,
-      "genres": ["comedy"]
-    },
-    {
-      "id": "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/2",
-      "title": "The Office",
-      "episode": "S1 E2 - Diversity Day",
-      "series": "https://flixtor.to/watch/tv/130674/the-office",
-      "poster": "https://img.xcdn.to/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
-      "duration": 1500000,
-      "genres": ["comedy"]
-    },
-    {
-      "id": "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/3",
-      "title": "The Office",
-      "episode": "S1 E3 - Health Care",
-      "series": "https://flixtor.to/watch/tv/130674/the-office",
-      "poster": "https://img.xcdn.to/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
-      "duration": 1500000,
-      "genres": ["comedy"]
-    },
-    {
-      "id": "https://flixtor.to/watch/tv/7634490/the-bear/season/1/episode/1",
-      "title": "The Bear",
-      "episode": "S1 E1 - System",
-      "series": "https://flixtor.to/watch/tv/7634490/the-bear",
-      "poster": "https://img.xcdn.to/t/p/w342/4fVddnbhcmzRZE14NJY03GKS6Fn.jpg",
-      "duration": 1500000,
-      "genres": ["comedy", "drama"]
-    },
-    {
-      "id": "https://flixtor.to/watch/tv/6667962/wednesday/season/1/episode/1",
-      "title": "Wednesday",
-      "episode": "S1 E1 - Wednesday's Child Is Full of Woe",
-      "series": "https://flixtor.to/watch/tv/6667962/wednesday",
-      "poster": "https://img.xcdn.to/t/p/w342/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-      "duration": 1500000,
-      "genres": ["comedy", "crime", "mystery"]
-    },
-    {
-      "id": "https://flixtor.to/watch/movie/30605922/knives-out",
-      "title": "Knives Out",
-      "poster": "https://img.xcdn.to/t/p/w342/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "duration": 6600000,
-      "genres": ["comedy", "crime", "mystery"]
-    }
-  ],
+  "content": [],
   "channels": [
     {
       "id": "prime",
@@ -96,21 +43,7 @@
       "description": "Sitcoms, comedy series, and funny films.",
       "color": "#80D6B0",
       "kind": "any",
-      "genres": ["comedy"],
-      "wheel": [
-        "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/1",
-        "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/2",
-        "https://flixtor.to/watch/tv/130674/the-office/season/1/episode/3",
-        "https://flixtor.to/watch/tv/7634490/the-bear/season/1/episode/1",
-        "https://flixtor.to/watch/tv/6667962/wednesday/season/1/episode/1"
-      ],
-      "schedule": [
-        {
-          "id": "https://flixtor.to/watch/movie/30605922/knives-out",
-          "start": "2026-11-18T17:00",
-          "end": "2026-11-18T18:50"
-        }
-      ]
+      "genres": ["comedy"]
     },
     {
       "id": "worlds",
