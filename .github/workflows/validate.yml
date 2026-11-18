@@ -1,0 +1,19 @@
+name: Lineup
+
+on:
+  push:
+    paths:
+      - lineup.json
+  pull_request:
+    paths:
+      - lineup.json
+
+jobs:
+  validate:
+    name: Validate lineup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply the same rules the TV applies
+        shell: pwsh
+        run: ./.github/scripts/Validate-Lineup.ps1 -Path lineup.json

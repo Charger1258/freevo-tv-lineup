@@ -1,0 +1,121 @@
+{
+  "revision": 1,
+  "timezone": "America/New_York",
+  "content": [],
+  "channels": [
+    {
+      "id": "prime",
+      "number": 101,
+      "name": "Featured",
+      "description": "A varied rotation of your shows and movies.",
+      "color": "#FFB45B",
+      "kind": "any"
+    },
+    {
+      "id": "cinema",
+      "number": 102,
+      "name": "Movies",
+      "description": "Feature films, back to back.",
+      "color": "#8CB9FF",
+      "kind": "movies"
+    },
+    {
+      "id": "series",
+      "number": 103,
+      "name": "TV Series",
+      "description": "Your series, with episodes in order.",
+      "color": "#BC9DFF",
+      "kind": "episodes"
+    },
+    {
+      "id": "crime",
+      "number": 104,
+      "name": "Crime & Mystery",
+      "description": "Detectives, investigations, and criminal worlds.",
+      "color": "#FF8E85",
+      "kind": "any",
+      "genres": ["crime", "mystery"]
+    },
+    {
+      "id": "easy",
+      "number": 105,
+      "name": "Comedy",
+      "description": "Sitcoms, comedy series, and funny films.",
+      "color": "#80D6B0",
+      "kind": "any",
+      "genres": ["comedy"]
+    },
+    {
+      "id": "worlds",
+      "number": 106,
+      "name": "Sci-Fi",
+      "description": "Space, future worlds, and speculative stories.",
+      "color": "#80D9E8",
+      "kind": "any",
+      "genres": ["science fiction"]
+    },
+    {
+      "id": "action",
+      "number": 107,
+      "name": "Action & Adventure",
+      "description": "Big-screen action and high-stakes adventures.",
+      "color": "#FFC77D",
+      "kind": "any",
+      "genres": ["action", "adventure"]
+    },
+    {
+      "id": "real",
+      "number": 108,
+      "name": "Documentaries",
+      "description": "Nature, discovery, and real-life stories.",
+      "color": "#D2CD97",
+      "kind": "any",
+      "genres": ["documentary", "nature"]
+    },
+    {
+      "id": "drama",
+      "number": 109,
+      "name": "Drama",
+      "description": "Character-led stories and compelling series.",
+      "color": "#E6A6CC",
+      "kind": "any",
+      "genres": ["drama"]
+    },
+    {
+      "id": "fantasy",
+      "number": 110,
+      "name": "Fantasy",
+      "description": "Magic, supernatural mysteries, and other worlds.",
+      "color": "#B0A2FA",
+      "kind": "any",
+      "genres": ["fantasy"]
+    },
+    {
+      "id": "horror",
+      "number": 111,
+      "name": "Horror",
+      "description": "Tense, unsettling, and supernatural scares.",
+      "color": "#C09A9A",
+      "kind": "any",
+      "genres": ["horror"]
+    },
+    {
+      "id": "family",
+      "number": 112,
+      "name": "Family & Animation",
+      "description": "Family films and animated adventures.",
+      "color": "#FFD594",
+      "kind": "any",
+      "genres": ["family", "animation"]
+    },
+    {
+      "id": "romance",
+      "number": 113,
+      "name": "Romance",
+      "description": "Love stories and romantic comedies.",
+      "color": "#F1AAC2",
+      "kind": "any",
+      "genres": ["romance"]
+    }
+  ]
+}
