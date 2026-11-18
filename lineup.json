@@ -1,5 +1,5 @@
 {
-  "revision": 1,
+  "revision": 2,
   "timezone": "America/New_York",
   "content": [],
   "channels": [
@@ -116,6 +116,88 @@
       "color": "#F1AAC2",
       "kind": "any",
       "genres": ["romance"]
+    }
+  ],
+  "live": [
+    {
+      "id": "iptv_al_jazeera_english",
+      "number": 201,
+      "name": "Al Jazeera English",
+      "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+      "group": "News",
+      "logo": "https://i.imgur.com/7bRVpnu.png"
+    },
+    {
+      "id": "iptv_abc_news_live",
+      "number": 202,
+      "name": "ABC News Live",
+      "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+      "group": "News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
+    },
+    {
+      "id": "iptv_dw_english",
+      "number": 203,
+      "name": "DW English",
+      "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+      "group": "News",
+      "logo": "https://i.imgur.com/8MRNFb9.png"
+    },
+    {
+      "id": "iptv_euronews",
+      "number": 204,
+      "name": "Euronews",
+      "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8",
+      "group": "News",
+      "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg"
+    },
+    {
+      "id": "iptv_bbc_news",
+      "number": 205,
+      "name": "BBC News",
+      "url": "https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd",
+      "group": "News",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png"
+    },
+    {
+      "id": "iptv_al_alarabiya_english",
+      "number": 206,
+      "name": "Al Arabiya English",
+      "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
+      "group": "News",
+      "logo": "https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png"
+    },
+    {
+      "id": "iptv_france24_espanol",
+      "number": 207,
+      "name": "France 24 Espanol",
+      "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+      "group": "News",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
+    },
+    {
+      "id": "iptv_dw_espanol",
+      "number": 208,
+      "name": "DW Espanol",
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+      "group": "News",
+      "logo": "https://i.imgur.com/8MRNFb9.png"
+    },
+    {
+      "id": "iptv_sky_news_arabia",
+      "number": 209,
+      "name": "Sky News Arabia",
+      "url": "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
+      "group": "News",
+      "logo": "https://i.imgur.com/SvjU4h6.png"
+    },
+    {
+      "id": "iptv_dw_arabic",
+      "number": 210,
+      "name": "DW Arabic",
+      "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
+      "group": "News",
+      "logo": "https://i.imgur.com/8MRNFb9.png"
     }
   ]
 }
